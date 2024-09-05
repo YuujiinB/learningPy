@@ -60,7 +60,7 @@ else:
                     print("=====================================")
                     break
                 print("=====================================")
-                print(name, "HP:", HP)
+                print("Phoenix HP:", p_HP)
                 print("=====================================")
             elif action == "potion":
                 if potions > 0:
@@ -93,7 +93,7 @@ else:
                     print("=====================================")
                     break
                 print("=====================================")
-                print(name, "HP:", HP)
+                print( "Phoenix HP:", p_HP)
                 print("=====================================")
             else:
                 print("=====================================")
@@ -166,7 +166,7 @@ while True:
                             print("=====================================")
                             break
                         print("=====================================")
-                        print(name, "HP:", HP)
+                        print("Warden HP:", w_HP)
                         print("=====================================")
                     elif action == "potion":
                         if potions > 0:
@@ -241,7 +241,7 @@ while True:
                             print("=====================================")
                             break
                         print("=====================================")
-                        print(name, "HP:", HP)
+                        print("Monster HP:", m_HP)
                         print("=====================================")
                     elif action == "potion":
                         if potions > 0:
@@ -274,7 +274,7 @@ while True:
                             print("Game over...")
                             print("=====================================")
                             break
-                        print(name, "HP:", HP)
+                        print("Monster HP:", m_HP)
                     else:
                         runchance = random.randint(0, 1)  # 1/2
                         if runchance == 1:
@@ -382,7 +382,7 @@ while True:
                             print("=====================================")
                             break
                         print("=====================================")
-                        print(name, "HP:", HP)
+                        print("Warden HP:", w_HP)
                         print("=====================================")
                     elif action == "potion":
                         if potions > 0:
@@ -414,7 +414,7 @@ while True:
                             print("=====================================")
                             break
                         print("=====================================")
-                        print(name, "HP:", HP)
+                        print("Warden HP:", w_HP)
                         print("=====================================")
                     else:
                         runchance = random.randint(0, 1)  # 1/2
